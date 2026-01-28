@@ -1,4 +1,0 @@
-file:src/test/java/com/practo/features/corporate.feature:3
-file:src/test/java/com/practo/features/diagnostics.feature:3
-file:src/test/java/com/practo/features/hospital.feature:3
-file:src/test/java/com/practo/features/rating.feature:3
