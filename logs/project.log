@@ -1937,3 +1937,80 @@ Session ID: 28dc2a14f3dabfc3d7ac1b4d2d4b0598
 2026-01-28 14:58:57 [main] INFO  com.practo.utils.Hooks - Scenario completed: Search Hospitals in Bangalore and find rating above 4.5
 2026-01-28 14:58:57 [main] INFO  com.practo.utils.Hooks - Status: PASSED
 2026-01-28 14:59:01 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 15:07:01 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 15:07:01 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 15:07:01 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 15:07:08 [main] INFO  com.practo.pages.HomePage - HomePage initialized.
+2026-01-28 15:07:08 [main] INFO  com.practo.pages.HomePage - Navigating to 'For Corporates' menu.
+2026-01-28 15:07:08 [main] INFO  com.practo.pages.HomePage - Clicking on 'Health & Wellness Plans' option.
+2026-01-28 15:07:14 [main] INFO  com.practo.pages.CorporateWellnessPage - CorporateWellnessPage initialized.
+2026-01-28 15:07:15 [main] INFO  com.practo.pages.CorporateWellnessPage - Excel data read successfully from: TestInput\CorporateWellnessPageData.xlsx
+2026-01-28 15:07:15 [main] INFO  com.practo.pages.CorporateWellnessPage - Filling form with invalid data.
+2026-01-28 15:07:15 [main] INFO  com.practo.pages.CorporateWellnessPage - Selecting dropdown values.
+2026-01-28 15:07:16 [main] INFO  com.practo.pages.CorporateWellnessPage - Triggering validation manually.
+2026-01-28 15:07:16 [main] INFO  com.practo.pages.CorporateWellnessPage - Forcing click on Schedule button.
+2026-01-28 15:07:17 [main] INFO  com.practo.pages.CorporateWellnessPage - Capturing error messages.
+2026-01-28 15:07:17 [main] WARN  com.practo.pages.CorporateWellnessPage - No error messages found.
+2026-01-28 15:07:17 [main] INFO  com.practo.pages.CorporateWellnessPage - Checking for invalid fields.
+2026-01-28 15:07:17 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Name field.
+2026-01-28 15:07:17 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Organization Name field.
+2026-01-28 15:07:17 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Contact Number.
+2026-01-28 15:07:17 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Email ID.
+2026-01-28 15:07:17 [main] INFO  com.practo.utils.Hooks - Scenario completed: Fill invalid form and capture errors
+2026-01-28 15:07:17 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 15:07:20 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 15:07:24 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 15:07:24 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 15:07:24 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 15:07:30 [main] INFO  com.practo.pages.DiagnosticsPage - DiagnosticsPage initialized with implicit wait.
+2026-01-28 15:07:30 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Surgeries section.
+2026-01-28 15:07:32 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Lab Tests section.
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - Extracting top cities under Diagnostics.
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Bangalore
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Delhi
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Mumbai
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Chennai
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Hyderabad
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Kolkata
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Pune
+2026-01-28 15:07:35 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Ahmedabad
+2026-01-28 15:07:35 [main] INFO  com.practo.utils.Hooks - Scenario completed: Extract top cities
+2026-01-28 15:07:35 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 15:07:38 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 15:07:41 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 15:07:41 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 15:07:41 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 15:07:41 [main] INFO  com.practo.pages.PractoHospitalScraper - PractoHospitalScraper initialized.
+2026-01-28 15:07:47 [main] INFO  com.practo.pages.PractoHospitalScraper - Opened Practo homepage.
+2026-01-28 15:07:47 [main] INFO  com.practo.pages.PractoHospitalScraper - Searching for hospitals in: Bangalore
+2026-01-28 15:08:01 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-01-28 15:08:03 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Manipal Hospitals
+2026-01-28 15:08:04 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Koshys Hospital
+2026-01-28 15:08:06 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Motherhood Hospital
+2026-01-28 15:08:07 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Motherhood Hospital
+2026-01-28 15:08:11 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Trilife Hospital
+2026-01-28 15:08:13 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Apollo Cradle & Children’s Hospital
+2026-01-28 15:08:15 [main] INFO  com.practo.pages.PractoHospitalScraper - Printing filtered hospitals...
+2026-01-28 15:08:15 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-01-28 15:08:15 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Manipal Hospitals
+2026-01-28 15:08:15 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Koshys Hospital
+2026-01-28 15:08:15 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Motherhood Hospital
+2026-01-28 15:08:15 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Motherhood Hospital
+2026-01-28 15:08:15 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Trilife Hospital
+2026-01-28 15:08:15 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Apollo Cradle & Children’s Hospital
+2026-01-28 15:08:20 [main] INFO  com.practo.pages.PractoHospitalScraper - Driver closed.
+2026-01-28 15:08:20 [main] INFO  com.practo.utils.Hooks - Scenario completed: Select hospitals with 24x7 service and rating > 3.5, then check for parking
+2026-01-28 15:08:20 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 15:08:20 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 15:08:24 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 15:08:24 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 15:08:24 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 15:08:24 [main] INFO  com.practo.pages.RatingFinder - RatingFinder initialized.
+2026-01-28 15:08:28 [main] INFO  com.practo.pages.RatingFinder - Searching for hospitals in: Bangalore
+2026-01-28 15:08:39 [main] INFO  com.practo.pages.RatingFinder - Checking for rating ≥ 4.5 for hospitals in Bangalore
+2026-01-28 15:08:40 [main] INFO  com.practo.pages.RatingFinder - Rating captured: 4.5
+2026-01-28 15:08:40 [main] INFO  com.practo.pages.RatingFinder - PASS — Rating ≥ 4.5 (actual: 4.5)
+2026-01-28 15:08:40 [main] INFO  com.practo.pages.RatingFinder - Max Rating meets threshold (≥ 4.50): actual 4.50
+2026-01-28 15:08:40 [main] INFO  com.practo.utils.Hooks - Scenario completed: Search Hospitals in Bangalore and find rating above 4.5
+2026-01-28 15:08:40 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 15:08:45 [main] INFO  com.practo.utils.Hooks - Driver closed.

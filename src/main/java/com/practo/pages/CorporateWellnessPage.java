@@ -29,7 +29,8 @@ public class CorporateWellnessPage {
         logger.info("CorporateWellnessPage initialized.");
     }
 
-    By nameField = By.name("name");
+//    By nameField = By.name("name");
+By nameField = By.xpath("//input[@placeholder='Name' or contains(@class,'corporate-form__input')][1]");
     By organizationField = By.name("organizationName");
     By contactField = By.name("contactNumber");
     By emailField = By.name("officialEmailId");
