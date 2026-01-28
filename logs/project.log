@@ -1424,3 +1424,516 @@ Session ID: 9d4310f28ca2e78faf41ff59fa9589c0
 2026-01-28 11:48:40 [main] INFO  com.practo.utils.Hooks - Scenario completed: Search Hospitals in Bangalore and find rating above 4.5
 2026-01-28 11:48:40 [main] INFO  com.practo.utils.Hooks - Status: PASSED
 2026-01-28 11:48:46 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 12:00:41 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 12:00:41 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 12:00:41 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 12:00:51 [main] INFO  com.practo.pages.HomePage - HomePage initialized.
+2026-01-28 12:00:51 [main] INFO  com.practo.pages.HomePage - Navigating to 'For Corporates' menu.
+2026-01-28 12:00:52 [main] INFO  com.practo.pages.HomePage - Clicking on 'Health & Wellness Plans' option.
+2026-01-28 12:00:57 [main] INFO  com.practo.pages.CorporateWellnessPage - CorporateWellnessPage initialized.
+2026-01-28 12:01:00 [main] INFO  com.practo.pages.CorporateWellnessPage - Excel data read successfully from: TestInput\CorporateWellnessPageData.xlsx
+2026-01-28 12:01:00 [main] INFO  com.practo.pages.CorporateWellnessPage - Filling form with invalid data.
+2026-01-28 12:01:01 [main] INFO  com.practo.pages.CorporateWellnessPage - Selecting dropdown values.
+2026-01-28 12:01:02 [main] INFO  com.practo.pages.CorporateWellnessPage - Triggering validation manually.
+2026-01-28 12:01:04 [main] INFO  com.practo.pages.CorporateWellnessPage - Forcing click on Schedule button.
+2026-01-28 12:01:04 [main] INFO  com.practo.pages.CorporateWellnessPage - Capturing error messages.
+2026-01-28 12:01:04 [main] WARN  com.practo.pages.CorporateWellnessPage - No error messages found.
+2026-01-28 12:01:04 [main] INFO  com.practo.pages.CorporateWellnessPage - Checking for invalid fields.
+2026-01-28 12:01:05 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Name field.
+2026-01-28 12:01:05 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Organization Name field.
+2026-01-28 12:01:05 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Contact Number.
+2026-01-28 12:01:05 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Email ID.
+2026-01-28 12:01:05 [main] INFO  com.practo.utils.Hooks - Scenario completed: Fill invalid form and capture errors
+2026-01-28 12:01:05 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 12:01:13 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 12:01:18 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 12:01:18 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 12:01:18 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 12:01:21 [main] INFO  com.practo.pages.DiagnosticsPage - DiagnosticsPage initialized with implicit wait.
+2026-01-28 12:01:21 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Surgeries section.
+2026-01-28 12:01:23 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Lab Tests section.
+2026-01-28 12:01:25 [main] INFO  com.practo.pages.DiagnosticsPage - Extracting top cities under Diagnostics.
+2026-01-28 12:01:26 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Bangalore
+2026-01-28 12:01:26 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Delhi
+2026-01-28 12:01:26 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Mumbai
+2026-01-28 12:01:26 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Chennai
+2026-01-28 12:01:26 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Hyderabad
+2026-01-28 12:01:26 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Kolkata
+2026-01-28 12:01:26 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Pune
+2026-01-28 12:01:26 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Ahmedabad
+2026-01-28 12:01:26 [main] INFO  com.practo.utils.Hooks - Scenario completed: Extract top cities
+2026-01-28 12:01:26 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 12:01:30 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 12:01:34 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 12:01:34 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 12:01:34 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 12:01:34 [main] INFO  com.practo.pages.PractoHospitalScraper - PractoHospitalScraper initialized.
+2026-01-28 12:02:03 [main] INFO  com.practo.pages.PractoHospitalScraper - Opened Practo homepage.
+2026-01-28 12:02:03 [main] INFO  com.practo.pages.PractoHospitalScraper - Searching for hospitals in: Bangalore
+2026-01-28 12:02:20 [main] ERROR com.practo.pages.PractoHospitalScraper - Error during search: Expected condition failed: waiting for element found by By.xpath: //div[contains(text(),'Bangalore')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Bangalore')]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457382\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58569}, goog:processID: 11444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58569/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d10fbe4c0ea41f2bc6d58ba35182d5
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //div[contains(text(),'Bangalore')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Bangalore')]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457382\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58569}, goog:processID: 11444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58569/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d10fbe4c0ea41f2bc6d58ba35182d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.40.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231) ~[selenium-support-4.40.0.jar:?]
+	at com.practo.pages.PractoHospitalScraper.search(PractoHospitalScraper.java:45) ~[classes/:?]
+	at com.practo.stepdefinitions.HospitalSteps.searchHospitals(HospitalSteps.java:22) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:86) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:229) [cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+2026-01-28 12:02:21 [main] INFO  com.practo.pages.PractoHospitalScraper - Printing filtered hospitals...
+2026-01-28 12:02:28 [main] INFO  com.practo.pages.PractoHospitalScraper - Driver closed.
+2026-01-28 12:02:28 [main] INFO  com.practo.utils.Hooks - Scenario completed: Select hospitals with 24x7 service and rating > 3.5, then check for parking
+2026-01-28 12:02:28 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 12:02:28 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 12:02:36 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 12:02:36 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 12:02:36 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 12:02:36 [main] INFO  com.practo.pages.RatingFinder - RatingFinder initialized.
+2026-01-28 12:02:42 [main] INFO  com.practo.pages.RatingFinder - Searching for hospitals in: Bangalore
+2026-01-28 12:02:57 [main] INFO  com.practo.pages.RatingFinder - Checking for rating ≥ 4.5 for hospitals in Bangalore
+2026-01-28 12:02:58 [main] INFO  com.practo.pages.RatingFinder - Rating captured: 4.5
+2026-01-28 12:02:58 [main] INFO  com.practo.pages.RatingFinder - PASS — Rating ≥ 4.5 (actual: 4.5)
+2026-01-28 12:02:58 [main] INFO  com.practo.pages.RatingFinder - Max Rating meets threshold (≥ 4.50): actual 4.50
+2026-01-28 12:02:58 [main] INFO  com.practo.utils.Hooks - Scenario completed: Search Hospitals in Bangalore and find rating above 4.5
+2026-01-28 12:02:58 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 12:03:14 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:33:13 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:33:13 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:33:13 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:33:16 [main] INFO  com.practo.pages.HomePage - HomePage initialized.
+2026-01-28 14:33:16 [main] INFO  com.practo.pages.HomePage - Navigating to 'For Corporates' menu.
+2026-01-28 14:33:17 [main] INFO  com.practo.pages.HomePage - Clicking on 'Health & Wellness Plans' option.
+2026-01-28 14:33:20 [main] INFO  com.practo.pages.CorporateWellnessPage - CorporateWellnessPage initialized.
+2026-01-28 14:33:21 [main] INFO  com.practo.pages.CorporateWellnessPage - Excel data read successfully from: TestInput\CorporateWellnessPageData.xlsx
+2026-01-28 14:33:21 [main] INFO  com.practo.pages.CorporateWellnessPage - Filling form with invalid data.
+2026-01-28 14:33:21 [main] INFO  com.practo.pages.CorporateWellnessPage - Selecting dropdown values.
+2026-01-28 14:33:22 [main] INFO  com.practo.pages.CorporateWellnessPage - Triggering validation manually.
+2026-01-28 14:33:22 [main] INFO  com.practo.pages.CorporateWellnessPage - Forcing click on Schedule button.
+2026-01-28 14:33:22 [main] INFO  com.practo.pages.CorporateWellnessPage - Capturing error messages.
+2026-01-28 14:33:23 [main] WARN  com.practo.pages.CorporateWellnessPage - No error messages found.
+2026-01-28 14:33:23 [main] INFO  com.practo.pages.CorporateWellnessPage - Checking for invalid fields.
+2026-01-28 14:33:23 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Name field.
+2026-01-28 14:33:23 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Organization Name field.
+2026-01-28 14:33:23 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Contact Number.
+2026-01-28 14:33:23 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Email ID.
+2026-01-28 14:33:23 [main] INFO  com.practo.utils.Hooks - Scenario completed: Fill invalid form and capture errors
+2026-01-28 14:33:23 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:33:27 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:33:32 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:33:32 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:33:32 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:33:36 [main] INFO  com.practo.pages.DiagnosticsPage - DiagnosticsPage initialized with implicit wait.
+2026-01-28 14:33:36 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Surgeries section.
+2026-01-28 14:33:38 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Lab Tests section.
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - Extracting top cities under Diagnostics.
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Bangalore
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Delhi
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Mumbai
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Chennai
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Hyderabad
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Kolkata
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Pune
+2026-01-28 14:33:40 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Ahmedabad
+2026-01-28 14:33:40 [main] INFO  com.practo.utils.Hooks - Scenario completed: Extract top cities
+2026-01-28 14:33:40 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:33:43 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:33:47 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:33:47 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:33:47 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:33:47 [main] INFO  com.practo.pages.PractoHospitalScraper - PractoHospitalScraper initialized.
+2026-01-28 14:33:50 [main] INFO  com.practo.pages.PractoHospitalScraper - Opened Practo homepage.
+2026-01-28 14:33:50 [main] INFO  com.practo.pages.PractoHospitalScraper - Searching for hospitals in: Bangalore
+2026-01-28 14:43:24 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:43:24 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:43:24 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:43:28 [main] INFO  com.practo.pages.HomePage - HomePage initialized.
+2026-01-28 14:43:28 [main] INFO  com.practo.pages.HomePage - Navigating to 'For Corporates' menu.
+2026-01-28 14:43:28 [main] INFO  com.practo.pages.HomePage - Clicking on 'Health & Wellness Plans' option.
+2026-01-28 14:43:34 [main] INFO  com.practo.pages.CorporateWellnessPage - CorporateWellnessPage initialized.
+2026-01-28 14:43:35 [main] INFO  com.practo.pages.CorporateWellnessPage - Excel data read successfully from: TestInput\CorporateWellnessPageData.xlsx
+2026-01-28 14:43:35 [main] INFO  com.practo.pages.CorporateWellnessPage - Filling form with invalid data.
+2026-01-28 14:43:36 [main] INFO  com.practo.pages.CorporateWellnessPage - Selecting dropdown values.
+2026-01-28 14:44:06 [main] INFO  com.practo.utils.Hooks - Scenario completed: Fill invalid form and capture errors
+2026-01-28 14:44:06 [main] INFO  com.practo.utils.Hooks - Status: FAILED
+2026-01-28 14:44:12 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:44:16 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:44:16 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:44:16 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:44:19 [main] INFO  com.practo.pages.DiagnosticsPage - DiagnosticsPage initialized with implicit wait.
+2026-01-28 14:44:19 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Surgeries section.
+2026-01-28 14:44:21 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Lab Tests section.
+2026-01-28 14:44:23 [main] INFO  com.practo.pages.DiagnosticsPage - Extracting top cities under Diagnostics.
+2026-01-28 14:44:24 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Bangalore
+2026-01-28 14:44:24 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Delhi
+2026-01-28 14:44:24 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Mumbai
+2026-01-28 14:44:24 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Chennai
+2026-01-28 14:44:24 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Hyderabad
+2026-01-28 14:44:24 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Kolkata
+2026-01-28 14:44:24 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Pune
+2026-01-28 14:44:24 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Ahmedabad
+2026-01-28 14:44:24 [main] INFO  com.practo.utils.Hooks - Scenario completed: Extract top cities
+2026-01-28 14:44:24 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:44:27 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:44:31 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:44:31 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:44:31 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:44:31 [main] INFO  com.practo.pages.PractoHospitalScraper - PractoHospitalScraper initialized.
+2026-01-28 14:44:35 [main] INFO  com.practo.pages.PractoHospitalScraper - Opened Practo homepage.
+2026-01-28 14:44:35 [main] INFO  com.practo.pages.PractoHospitalScraper - Searching for hospitals in: Bangalore
+2026-01-28 14:44:36 [main] ERROR com.practo.pages.PractoHospitalScraper - Error during search: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28dc2a14f3dabfc3d7ac1b4d2d4b0598, sendKeysToElement {id=f.0EC9F77330D5E8046A6531791E6535AA.d.18207EDF1F27767DC78E19B2085C4269.e.2, value=[Ljava.lang.CharSequence;@1934339}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457382\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57189}, goog:processID: 3700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57189/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28dc2a14f3dabfc3d7ac1b4d2d4b0598)] -> xpath: //input[@placeholder='Search location']]
+Session ID: 28dc2a14f3dabfc3d7ac1b4d2d4b0598
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28dc2a14f3dabfc3d7ac1b4d2d4b0598, sendKeysToElement {id=f.0EC9F77330D5E8046A6531791E6535AA.d.18207EDF1F27767DC78E19B2085C4269.e.2, value=[Ljava.lang.CharSequence;@1934339}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457382\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57189}, goog:processID: 3700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57189/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (28dc2a14f3dabfc3d7ac1b4d2d4b0598)] -> xpath: //input[@placeholder='Search location']]
+Session ID: 28dc2a14f3dabfc3d7ac1b4d2d4b0598
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110) ~[selenium-remote-driver-4.40.0.jar:?]
+	at com.practo.pages.PractoHospitalScraper.search(PractoHospitalScraper.java:44) ~[classes/:?]
+	at com.practo.stepdefinitions.HospitalSteps.searchHospitals(HospitalSteps.java:22) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:86) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:229) [cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+2026-01-28 14:44:39 [main] ERROR com.practo.pages.PractoHospitalScraper - Scrolling error: invalid session id
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28dc2a14f3dabfc3d7ac1b4d2d4b0598, executeScript {script=window.scrollBy(0, 1000), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457382\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57189}, goog:processID: 3700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57189/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28dc2a14f3dabfc3d7ac1b4d2d4b0598
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [28dc2a14f3dabfc3d7ac1b4d2d4b0598, executeScript {script=window.scrollBy(0, 1000), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457382\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57189}, goog:processID: 3700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57189/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 28dc2a14f3dabfc3d7ac1b4d2d4b0598
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-4.40.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:532) ~[selenium-remote-driver-4.40.0.jar:?]
+	at com.practo.pages.PractoHospitalScraper.filterHospitals(PractoHospitalScraper.java:69) ~[classes/:?]
+	at com.practo.stepdefinitions.HospitalSteps.filterHospitals(HospitalSteps.java:28) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:86) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:77) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) ~[cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) ~[cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.23.0.jar:7.23.0]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:229) [cucumber-junit-7.23.0.jar:7.23.0]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58) [junit-rt.jar:?]
+2026-01-28 14:44:39 [main] INFO  com.practo.utils.Hooks - Scenario completed: Select hospitals with 24x7 service and rating > 3.5, then check for parking
+2026-01-28 14:44:39 [main] INFO  com.practo.utils.Hooks - Status: FAILED
+2026-01-28 14:45:40 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:45:40 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:45:40 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:45:43 [main] INFO  com.practo.pages.HomePage - HomePage initialized.
+2026-01-28 14:45:43 [main] INFO  com.practo.pages.HomePage - Navigating to 'For Corporates' menu.
+2026-01-28 14:45:43 [main] INFO  com.practo.pages.HomePage - Clicking on 'Health & Wellness Plans' option.
+2026-01-28 14:45:47 [main] INFO  com.practo.pages.CorporateWellnessPage - CorporateWellnessPage initialized.
+2026-01-28 14:45:47 [main] INFO  com.practo.pages.CorporateWellnessPage - Excel data read successfully from: TestInput\CorporateWellnessPageData.xlsx
+2026-01-28 14:45:47 [main] INFO  com.practo.pages.CorporateWellnessPage - Filling form with invalid data.
+2026-01-28 14:45:48 [main] INFO  com.practo.pages.CorporateWellnessPage - Selecting dropdown values.
+2026-01-28 14:45:48 [main] INFO  com.practo.pages.CorporateWellnessPage - Triggering validation manually.
+2026-01-28 14:45:49 [main] INFO  com.practo.pages.CorporateWellnessPage - Forcing click on Schedule button.
+2026-01-28 14:45:49 [main] INFO  com.practo.pages.CorporateWellnessPage - Capturing error messages.
+2026-01-28 14:45:49 [main] WARN  com.practo.pages.CorporateWellnessPage - No error messages found.
+2026-01-28 14:45:49 [main] INFO  com.practo.pages.CorporateWellnessPage - Checking for invalid fields.
+2026-01-28 14:45:49 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Name field.
+2026-01-28 14:45:49 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Organization Name field.
+2026-01-28 14:45:49 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Contact Number.
+2026-01-28 14:45:49 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Email ID.
+2026-01-28 14:45:49 [main] INFO  com.practo.utils.Hooks - Scenario completed: Fill invalid form and capture errors
+2026-01-28 14:45:49 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:45:54 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:45:58 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:45:58 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:45:58 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:46:01 [main] INFO  com.practo.pages.DiagnosticsPage - DiagnosticsPage initialized with implicit wait.
+2026-01-28 14:46:01 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Surgeries section.
+2026-01-28 14:46:03 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Lab Tests section.
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - Extracting top cities under Diagnostics.
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Bangalore
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Delhi
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Mumbai
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Chennai
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Hyderabad
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Kolkata
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Pune
+2026-01-28 14:46:08 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Ahmedabad
+2026-01-28 14:46:08 [main] INFO  com.practo.utils.Hooks - Scenario completed: Extract top cities
+2026-01-28 14:46:08 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:46:11 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:46:15 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:46:15 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:46:15 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:46:15 [main] INFO  com.practo.pages.PractoHospitalScraper - PractoHospitalScraper initialized.
+2026-01-28 14:46:18 [main] INFO  com.practo.pages.PractoHospitalScraper - Opened Practo homepage.
+2026-01-28 14:46:18 [main] INFO  com.practo.pages.PractoHospitalScraper - Searching for hospitals in: Bangalore
+2026-01-28 14:46:31 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-01-28 14:46:32 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Manipal Hospitals
+2026-01-28 14:46:33 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Koshys Hospital
+2026-01-28 14:46:35 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Motherhood Hospital
+2026-01-28 14:46:36 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Motherhood Hospital
+2026-01-28 14:46:37 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Trilife Hospital
+2026-01-28 14:46:40 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Apollo Cradle & Children’s Hospital
+2026-01-28 14:46:43 [main] INFO  com.practo.pages.PractoHospitalScraper - Printing filtered hospitals...
+2026-01-28 14:46:43 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-01-28 14:46:43 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Manipal Hospitals
+2026-01-28 14:46:43 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Koshys Hospital
+2026-01-28 14:46:43 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Motherhood Hospital
+2026-01-28 14:46:43 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Motherhood Hospital
+2026-01-28 14:46:43 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Trilife Hospital
+2026-01-28 14:46:43 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Apollo Cradle & Children’s Hospital
+2026-01-28 14:46:47 [main] INFO  com.practo.pages.PractoHospitalScraper - Driver closed.
+2026-01-28 14:46:47 [main] INFO  com.practo.utils.Hooks - Scenario completed: Select hospitals with 24x7 service and rating > 3.5, then check for parking
+2026-01-28 14:46:47 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:46:47 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:46:53 [main] INFO  com.practo.utils.Hooks - Scenario completed: Search Hospitals in Bangalore and find rating above 4.5
+2026-01-28 14:46:53 [main] INFO  com.practo.utils.Hooks - Status: FAILED
+2026-01-28 14:46:56 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:57:24 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:57:24 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:57:24 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:57:28 [main] INFO  com.practo.pages.HomePage - HomePage initialized.
+2026-01-28 14:57:28 [main] INFO  com.practo.pages.HomePage - Navigating to 'For Corporates' menu.
+2026-01-28 14:57:33 [main] INFO  com.practo.pages.HomePage - Clicking on 'Health & Wellness Plans' option.
+2026-01-28 14:57:38 [main] INFO  com.practo.pages.CorporateWellnessPage - CorporateWellnessPage initialized.
+2026-01-28 14:57:38 [main] INFO  com.practo.pages.CorporateWellnessPage - Excel data read successfully from: TestInput\CorporateWellnessPageData.xlsx
+2026-01-28 14:57:38 [main] INFO  com.practo.pages.CorporateWellnessPage - Filling form with invalid data.
+2026-01-28 14:57:39 [main] INFO  com.practo.pages.CorporateWellnessPage - Selecting dropdown values.
+2026-01-28 14:57:39 [main] INFO  com.practo.pages.CorporateWellnessPage - Triggering validation manually.
+2026-01-28 14:57:40 [main] INFO  com.practo.pages.CorporateWellnessPage - Forcing click on Schedule button.
+2026-01-28 14:57:40 [main] INFO  com.practo.pages.CorporateWellnessPage - Capturing error messages.
+2026-01-28 14:57:41 [main] WARN  com.practo.pages.CorporateWellnessPage - No error messages found.
+2026-01-28 14:57:41 [main] INFO  com.practo.pages.CorporateWellnessPage - Checking for invalid fields.
+2026-01-28 14:57:41 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Name field.
+2026-01-28 14:57:41 [main] WARN  com.practo.pages.CorporateWellnessPage - Empty Organization Name field.
+2026-01-28 14:57:41 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Contact Number.
+2026-01-28 14:57:41 [main] WARN  com.practo.pages.CorporateWellnessPage - Invalid Email ID.
+2026-01-28 14:57:41 [main] INFO  com.practo.utils.Hooks - Scenario completed: Fill invalid form and capture errors
+2026-01-28 14:57:41 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:57:44 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:57:48 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:57:48 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:57:48 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:57:51 [main] INFO  com.practo.pages.DiagnosticsPage - DiagnosticsPage initialized with implicit wait.
+2026-01-28 14:57:51 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Surgeries section.
+2026-01-28 14:57:53 [main] INFO  com.practo.pages.DiagnosticsPage - Navigating to Lab Tests section.
+2026-01-28 14:57:58 [main] INFO  com.practo.pages.DiagnosticsPage - Extracting top cities under Diagnostics.
+2026-01-28 14:57:59 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Bangalore
+2026-01-28 14:57:59 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Delhi
+2026-01-28 14:57:59 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Mumbai
+2026-01-28 14:57:59 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Chennai
+2026-01-28 14:57:59 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Hyderabad
+2026-01-28 14:57:59 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Kolkata
+2026-01-28 14:57:59 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Pune
+2026-01-28 14:57:59 [main] INFO  com.practo.pages.DiagnosticsPage - City found: Ahmedabad
+2026-01-28 14:57:59 [main] INFO  com.practo.utils.Hooks - Scenario completed: Extract top cities
+2026-01-28 14:57:59 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:58:02 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:58:06 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:58:06 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:58:06 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:58:06 [main] INFO  com.practo.pages.PractoHospitalScraper - PractoHospitalScraper initialized.
+2026-01-28 14:58:09 [main] INFO  com.practo.pages.PractoHospitalScraper - Opened Practo homepage.
+2026-01-28 14:58:09 [main] INFO  com.practo.pages.PractoHospitalScraper - Searching for hospitals in: Bangalore
+2026-01-28 14:58:23 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-01-28 14:58:25 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Manipal Hospitals
+2026-01-28 14:58:26 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Koshys Hospital
+2026-01-28 14:58:28 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Motherhood Hospital
+2026-01-28 14:58:29 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Motherhood Hospital
+2026-01-28 14:58:30 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Trilife Hospital
+2026-01-28 14:58:32 [main] INFO  com.practo.pages.PractoHospitalScraper - Added hospital: Apollo Cradle & Children’s Hospital
+2026-01-28 14:58:34 [main] INFO  com.practo.pages.PractoHospitalScraper - Printing filtered hospitals...
+2026-01-28 14:58:34 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Manipal Hospital Varthur Road (formerly Columbia Asia Hospital)
+2026-01-28 14:58:34 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Manipal Hospitals
+2026-01-28 14:58:34 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Koshys Hospital
+2026-01-28 14:58:34 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Motherhood Hospital
+2026-01-28 14:58:34 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Motherhood Hospital
+2026-01-28 14:58:34 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Trilife Hospital
+2026-01-28 14:58:34 [main] INFO  com.practo.pages.PractoHospitalScraper - Hospital: Apollo Cradle & Children’s Hospital
+2026-01-28 14:58:39 [main] INFO  com.practo.pages.PractoHospitalScraper - Driver closed.
+2026-01-28 14:58:39 [main] INFO  com.practo.utils.Hooks - Scenario completed: Select hospitals with 24x7 service and rating > 3.5, then check for parking
+2026-01-28 14:58:39 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:58:39 [main] INFO  com.practo.utils.Hooks - Driver closed.
+2026-01-28 14:58:43 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:58:43 [main] INFO  com.practo.utils.Hooks - Running tests on: chrome
+2026-01-28 14:58:43 [main] INFO  com.practo.utils.Hooks - ==============================
+2026-01-28 14:58:43 [main] INFO  com.practo.pages.RatingFinder - RatingFinder initialized.
+2026-01-28 14:58:46 [main] INFO  com.practo.pages.RatingFinder - Searching for hospitals in: Bangalore
+2026-01-28 14:58:56 [main] INFO  com.practo.pages.RatingFinder - Checking for rating ≥ 4.5 for hospitals in Bangalore
+2026-01-28 14:58:57 [main] INFO  com.practo.pages.RatingFinder - Rating captured: 4.5
+2026-01-28 14:58:57 [main] INFO  com.practo.pages.RatingFinder - PASS — Rating ≥ 4.5 (actual: 4.5)
+2026-01-28 14:58:57 [main] INFO  com.practo.pages.RatingFinder - Max Rating meets threshold (≥ 4.50): actual 4.50
+2026-01-28 14:58:57 [main] INFO  com.practo.utils.Hooks - Scenario completed: Search Hospitals in Bangalore and find rating above 4.5
+2026-01-28 14:58:57 [main] INFO  com.practo.utils.Hooks - Status: PASSED
+2026-01-28 14:59:01 [main] INFO  com.practo.utils.Hooks - Driver closed.

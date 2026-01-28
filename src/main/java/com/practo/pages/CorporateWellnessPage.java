@@ -51,7 +51,8 @@ public class CorporateWellnessPage {
     public void fillFormWithInvalidData() {
         ReadExcelData("TestInput\\CorporateWellnessPageData.xlsx");
         logger.info("Filling form with invalid data.");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(nameField)).sendKeys(data[0]);
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(nameField)).sendKeys(data[0]);
+        driver.findElement(nameField).sendKeys(data[0]);
         driver.findElement(organizationField).sendKeys(data[1]);
         driver.findElement(contactField).sendKeys(data[2]);
         driver.findElement(emailField).sendKeys(data[3]);
